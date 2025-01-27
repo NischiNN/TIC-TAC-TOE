@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="main-body">
+    <div class="first-child">
+        <h1 class="header-text">TIC-TAC-TOE</h1>
+    </div>
+    <div class="second-child">
+        <div class="game-box">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <div class="reset-button-body" onclick="resetAllButton()">
+        <div class="reset-button">Reset</div>
+    </div>
+    <div *ngIf="winner" class="winner-display-body reset-button-body">
+        <div class="winner-display"></div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

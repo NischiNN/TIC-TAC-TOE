@@ -1,0 +1,89 @@
+
+
+.main-body{
+    background: linear-gradient(to right,#1B2E82,#26C5C9);
+    overflow: hidden;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-child{
+    height: 50px;
+}
+.second-child{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.game-box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    box-shadow: 5px 10px 8px #474242;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.disabled-css{
+    background-color: #b1afaf;
+}
+.reset-button-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.reset-button{
+    height: 30px;
+    width: 60px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.winner-match-glow-button {
+    animation: glowing 1.5s infinite;
+    border: 2px solid #31A01D;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  @keyframes glowing {
+    0% {
+        box-shadow: 0 0 5px #31A01D;
+    }
+    50% {
+        box-shadow: 0 0 30px #31A01D;
+    }
+    100% {
+        box-shadow: 0 0 5px #31A01D;
+    }
+  }
+.winner-display{
+    font-size: xxx-large;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+.winner-display-body{
+    padding-top: 20px;
+}

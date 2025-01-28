@@ -36,7 +36,7 @@ accessButton.forEach((box,index)=>{
                 box.classList.add('disabled-css')
             });
             let findDisplayWinner=document.querySelector('.winner-display');
-            findDisplayWinner.innerText=`Congatulations !! ${playerO ? 'player 2' : 'player 1'} won`
+            findDisplayWinner.innerText=`Congratulations !! ${playerO ? 'player 2' : 'player 1'} won`
         }
     });
 })
